@@ -1391,7 +1391,7 @@
   .copyright .link {
     display: inline;
     color: var(--gold-crayola);
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   

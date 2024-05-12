@@ -26,5 +26,10 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'contact' });
 });
 
+/* get cofy drink menus page */
+router.get('/drink', function(req, res, next) {
+  res.render('drink', { title: 'drink' });
+});
+
 
 module.exports = router;
